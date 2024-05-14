@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_title_paragraf_title_paragrafs",
+  "info": {
+    "displayName": "Title paragraf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "paragraf": {
+      "type": "text"
+    }
+  }
+}

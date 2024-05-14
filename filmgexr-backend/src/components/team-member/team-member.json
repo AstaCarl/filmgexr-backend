@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_team_member_team_members",
+  "info": {
+    "displayName": "Team-member"
+  },
+  "options": {},
+  "attributes": {
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

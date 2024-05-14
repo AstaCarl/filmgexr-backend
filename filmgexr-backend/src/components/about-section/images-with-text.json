@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_section_images_with_texts",
+  "info": {
+    "displayName": "title-paragraf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text"
+    },
+    "paragraf": {
+      "type": "text"
+    }
+  }
+}

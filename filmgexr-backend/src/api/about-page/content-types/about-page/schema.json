@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "aboutUs": {
+      "displayName": "Images With text",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-section.images-with-text"
+    },
+    "teamMemberCard": {
+      "displayName": "Team-member",
+      "type": "component",
+      "repeatable": true,
+      "component": "team-member.team-member"
+    },
+    "teamTitle": {
+      "type": "string"
+    },
+    "Partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clients.clients"
+    }
+  }
+}

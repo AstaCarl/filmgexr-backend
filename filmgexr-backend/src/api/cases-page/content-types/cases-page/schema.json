@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "cases_pages",
+  "info": {
+    "singularName": "cases-page",
+    "pluralName": "cases-pages",
+    "displayName": "Cases Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cases": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cases.cases"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

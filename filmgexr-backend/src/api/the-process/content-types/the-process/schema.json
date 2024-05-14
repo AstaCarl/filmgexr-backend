@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_processes",
+  "info": {
+    "singularName": "the-process",
+    "pluralName": "the-processes",
+    "displayName": "The process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "steps.steps"
+    }
+  }
+}
