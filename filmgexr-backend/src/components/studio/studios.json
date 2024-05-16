@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_studio_studios",
+  "info": {
+    "displayName": "Studios",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "smallStudText": {
+      "type": "text"
+    },
+    "studios": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "smallStudLink": {
+      "type": "string"
+    },
+    "bigStudText": {
+      "type": "text"
+    },
+    "bigStudLink": {
+      "type": "string"
+    }
+  }
+}

@@ -805,7 +805,8 @@ export interface ApiAboutPageAboutPage extends Schema.SingleType {
     aboutUs: Attribute.Component<'about-section.images-with-text', true>;
     teamMemberCard: Attribute.Component<'team-member.team-member', true>;
     teamTitle: Attribute.String;
-    Partners: Attribute.Component<'clients.clients'>;
+    partners: Attribute.Component<'clients.clients', true>;
+    partnersTitle: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1001,10 +1002,18 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
   };
   attributes: {
     introduction: Attribute.Component<'introduction.introduction'>;
-    clients: Attribute.Component<'clients.clients'>;
+    clients: Attribute.Component<'clients.clients', true>;
     arrowAnchor: Attribute.Component<'anchor.arrow-anchor'>;
     benefits: Attribute.Component<'benefits.benefits', true>;
     HeroVideo: Attribute.Media;
+    clientsTitle: Attribute.String;
+    clientSummary: Attribute.Text;
+    Studios: Attribute.Component<'studio.studios'>;
+    uniqueInScandinavia: Attribute.Component<'bullet-section.bullets-section'>;
+    fullService: Attribute.Component<'bullet-section.bullets-section'>;
+    virtualProduction: Attribute.Component<'bullet-section.bullets-section'>;
+    bulletsTitle: Attribute.String;
+    benefitsTitle: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

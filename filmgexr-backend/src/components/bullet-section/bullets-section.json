@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bullet_section_bullets_sections",
+  "info": {
+    "displayName": "bulletsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bulletpoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bullets.bulletpoints"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

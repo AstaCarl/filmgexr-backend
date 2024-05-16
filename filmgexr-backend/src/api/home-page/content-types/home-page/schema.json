@@ -19,7 +19,7 @@
     },
     "clients": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "clients.clients"
     },
     "arrowAnchor": {
@@ -43,6 +43,39 @@
         "videos",
         "audios"
       ]
+    },
+    "clientsTitle": {
+      "type": "string"
+    },
+    "clientSummary": {
+      "type": "text"
+    },
+    "Studios": {
+      "type": "component",
+      "repeatable": false,
+      "component": "studio.studios"
+    },
+    "uniqueInScandinavia": {
+      "displayName": "bulletsSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "bullet-section.bullets-section"
+    },
+    "fullService": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bullet-section.bullets-section"
+    },
+    "virtualProduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bullet-section.bullets-section"
+    },
+    "bulletsTitle": {
+      "type": "string"
+    },
+    "benefitsTitle": {
+      "type": "string"
     }
   }
 }

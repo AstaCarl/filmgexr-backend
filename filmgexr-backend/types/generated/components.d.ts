@@ -37,6 +37,30 @@ export interface BenefitsBenefits extends Schema.Component {
   };
 }
 
+export interface BulletSectionBulletsSection extends Schema.Component {
+  collectionName: 'components_bullet_section_bullets_sections';
+  info: {
+    displayName: 'bulletsSection';
+    description: '';
+  };
+  attributes: {
+    bulletpoints: Attribute.Component<'bullets.bulletpoints', true>;
+    title: Attribute.String;
+    subtitle: Attribute.String;
+  };
+}
+
+export interface BulletsBulletpoints extends Schema.Component {
+  collectionName: 'components_bullets_bulletpoints';
+  info: {
+    displayName: 'bulletpoints';
+    description: '';
+  };
+  attributes: {
+    point: Attribute.Text;
+  };
+}
+
 export interface CasesCases extends Schema.Component {
   collectionName: 'components_cases_cases';
   info: {
@@ -57,7 +81,7 @@ export interface ClientsClients extends Schema.Component {
   };
   attributes: {
     logos: Attribute.Media;
-    title: Attribute.String;
+    url: Attribute.Text;
   };
 }
 
@@ -181,6 +205,22 @@ export interface StepsSteps extends Schema.Component {
   };
 }
 
+export interface StudioStudios extends Schema.Component {
+  collectionName: 'components_studio_studios';
+  info: {
+    displayName: 'Studios';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String;
+    smallStudText: Attribute.Text;
+    studios: Attribute.Media;
+    smallStudLink: Attribute.String;
+    bigStudText: Attribute.Text;
+    bigStudLink: Attribute.String;
+  };
+}
+
 export interface TeamMemberTeamMember extends Schema.Component {
   collectionName: 'components_team_member_team_members';
   info: {
@@ -212,6 +252,8 @@ declare module '@strapi/types' {
       'about-section.images-with-text': AboutSectionImagesWithText;
       'anchor.arrow-anchor': AnchorArrowAnchor;
       'benefits.benefits': BenefitsBenefits;
+      'bullet-section.bullets-section': BulletSectionBulletsSection;
+      'bullets.bulletpoints': BulletsBulletpoints;
       'cases.cases': CasesCases;
       'clients.clients': ClientsClients;
       'icons.socials': IconsSocials;
@@ -224,6 +266,7 @@ declare module '@strapi/types' {
       'navigation-link.footer-link': NavigationLinkFooterLink;
       'navigation-link.navigation-link': NavigationLinkNavigationLink;
       'steps.steps': StepsSteps;
+      'studio.studios': StudioStudios;
       'team-member.team-member': TeamMemberTeamMember;
       'title-paragraf.title-paragraf': TitleParagrafTitleParagraf;
     }

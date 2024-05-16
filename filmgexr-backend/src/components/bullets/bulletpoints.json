@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bullets_bulletpoints",
+  "info": {
+    "displayName": "bulletpoints",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "text"
+    }
+  }
+}

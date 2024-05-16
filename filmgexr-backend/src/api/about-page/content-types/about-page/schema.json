@@ -33,10 +33,13 @@
     "teamTitle": {
       "type": "string"
     },
-    "Partners": {
+    "partners": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "clients.clients"
+    },
+    "partnersTitle": {
+      "type": "string"
     }
   }
 }
