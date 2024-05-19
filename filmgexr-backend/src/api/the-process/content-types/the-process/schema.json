@@ -4,7 +4,8 @@
   "info": {
     "singularName": "the-process",
     "pluralName": "the-processes",
-    "displayName": "The process"
+    "displayName": "The process",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,9 +18,29 @@
     "subtitle": {
       "type": "text"
     },
-    "steps": {
+    "step1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
+      "component": "steps.steps"
+    },
+    "step2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steps.steps"
+    },
+    "step3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steps.steps"
+    },
+    "step4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steps.steps"
+    },
+    "step5": {
+      "type": "component",
+      "repeatable": false,
       "component": "steps.steps"
     }
   }

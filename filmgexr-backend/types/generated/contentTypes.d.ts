@@ -1038,6 +1038,7 @@ export interface ApiTheProcessTheProcess extends Schema.SingleType {
     singularName: 'the-process';
     pluralName: 'the-processes';
     displayName: 'The process';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1045,7 +1046,11 @@ export interface ApiTheProcessTheProcess extends Schema.SingleType {
   attributes: {
     title: Attribute.String;
     subtitle: Attribute.Text;
-    steps: Attribute.Component<'steps.steps', true>;
+    step1: Attribute.Component<'steps.steps'>;
+    step2: Attribute.Component<'steps.steps'>;
+    step3: Attribute.Component<'steps.steps'>;
+    step4: Attribute.Component<'steps.steps'>;
+    step5: Attribute.Component<'steps.steps'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
