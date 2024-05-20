@@ -40,6 +40,11 @@
     },
     "partnersTitle": {
       "type": "string"
+    },
+    "arrowAnchor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "anchor.arrow-anchor"
     }
   }
 }

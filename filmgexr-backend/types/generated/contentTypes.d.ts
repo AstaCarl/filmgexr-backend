@@ -807,6 +807,7 @@ export interface ApiAboutPageAboutPage extends Schema.SingleType {
     teamTitle: Attribute.String;
     partners: Attribute.Component<'clients.clients', true>;
     partnersTitle: Attribute.String;
+    arrowAnchor: Attribute.Component<'anchor.arrow-anchor'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
