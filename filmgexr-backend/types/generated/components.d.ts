@@ -94,6 +94,7 @@ export interface IconsSocials extends Schema.Component {
   attributes: {
     url: Attribute.Text;
     icon: Attribute.Media;
+    title: Attribute.String;
   };
 }
 
