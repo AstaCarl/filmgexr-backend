@@ -1016,6 +1016,8 @@ export interface ApiHomePageHomePage extends Schema.SingleType {
     virtualProduction: Attribute.Component<'bullet-section.bullets-section'>;
     bulletsTitle: Attribute.String;
     benefitsTitle: Attribute.String;
+    posterDesktop: Attribute.Media;
+    posterMobile: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
